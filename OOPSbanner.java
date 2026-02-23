@@ -1,13 +1,9 @@
-public class OOPSBannerApp {
+public class OOPSbanner {
     public static void main(String[] args) {
-        // UC3: Using String.join for better memory usage
-        
-        System.out.println(String.join("", " *** ", "  ", " *** ", "  ", "**** ", "  ", " ****"));
-        System.out.println(String.join("", "* *", "  ", "* *", "  ", "* *", "  ", "* "));
-        System.out.println(String.join("", "* *", "  ", "* *", "  ", "* *", "  ", "* "));
-        System.out.println(String.join("", "* *", "  ", "* *", "  ", "**** ", "  ", " *** "));
-        System.out.println(String.join("", "* *", "  ", "* *", "  ", "* ", "  ", "    *"));
-        System.out.println(String.join("", "* *", "  ", "* *", "  ", "* ", "  ", "    *"));
-        System.out.println(String.join("", " *** ", "  ", " *** ", "  ", "* ", "  ", "**** "));
+        System.out.println(" ***   ***  ****  ****");
+        System.out.println("* * * * * * *  * *");
+        System.out.println("* * * * * * ****  ****");
+        System.out.println("* * * * * * *         * ");
+        System.out.println(" ***   ***  *     ****");
     }
 }
